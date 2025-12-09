@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julio Cesar | Estrategia & Datos</title>
+    <meta name="description" content="Portafolio profesional de Julio Cesar Fonseca - Ingeniero Industrial y Especialista en Analítica de Datos & Business Analytics." />
+    
+    <!-- Google Analytics 4 (GA4) - Template -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TU-ID-AQUI"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // gtag('config', 'G-TU-ID-AQUI'); 
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            },
+            colors: {
+              primary: '#020617', // Ultra Dark Navy
+              secondary: '#1e293b', // Slate Blue
+              surface: '#F8FAFC', // Smoke White
+              accent: '#F59E0B', // Amber 500 (Executive Gold)
+              'accent-light': '#FCD34D', 
+              'accent-hover': '#D97706',
+              'blue-royal': '#1e40af',
+            },
+            backgroundImage: {
+              // IMAGEN HERO: Global Data Network / Earth Connection - Alto Impacto Tecnológico
+              'hero-pattern': "linear-gradient(to right bottom, rgba(2, 6, 23, 0.9), rgba(2, 6, 23, 0.75)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop')", 
+              
+              // IMAGEN CONTACTO: Executive Boardroom / Reunión de Negocios
+              'contact-pattern': "linear-gradient(to right, rgba(2, 6, 23, 0.95), rgba(2, 6, 23, 0.85)), url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format&fit=crop')",
+              
+              'gradient-gold': 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)',
+              'gradient-navy': 'linear-gradient(135deg, #020617 0%, #1e293b 100%)',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.8s ease-out forwards',
+              'slide-up': 'slideUp 0.8s ease-out forwards',
+              'float': 'float 6s ease-in-out infinite',
+              'heartbeat': 'heartbeat 2s ease-in-out infinite',
+              'heartbeat-green': 'heartbeatGreen 2s ease-in-out infinite',
+              'shine': 'shine 3s infinite',
+              'bounce-subtle': 'bounceSubtle 2s infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              heartbeat: {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.1)', boxShadow: '0 0 0 0 rgba(245, 158, 11, 0.7)' },
+                '70%': { transform: 'scale(1)', boxShadow: '0 0 0 20px rgba(245, 158, 11, 0)' },
+              },
+              heartbeatGreen: {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.1)', boxShadow: '0 0 0 0 rgba(37, 211, 102, 0.7)' },
+                '70%': { transform: 'scale(1)', boxShadow: '0 0 0 20px rgba(37, 211, 102, 0)' },
+              },
+              shine: {
+                '0%': { backgroundPosition: '200% center' },
+                '100%': { backgroundPosition: '-200% center' },
+              },
+              bounceSubtle: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-5px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020617; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #F59E0B; 
+      }
+      
+      /* Selection Color */
+      ::selection {
+        background-color: #F59E0B;
+        color: #ffffff;
+      }
+      
+      /* Range Input Customization */
+      input[type=range] {
+        height: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
